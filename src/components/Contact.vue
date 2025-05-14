@@ -34,7 +34,7 @@
         <div class="flex items-start mb-2">
           <VsxIcon iconName="Location" :size="32" color="white" type="bold" class="min-w-10" />
           <div class="flex flex-col space-y-2">
-            <span>{{ t.footer.address1 }}</span>
+            <span> {{ t.footer.address1 }} </span>
             <span>{{ t.footer.address2 }}</span>
           </div>
         </div>

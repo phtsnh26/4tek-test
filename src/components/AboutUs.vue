@@ -22,9 +22,7 @@
               <p class="text-5xl lg:text-[80px] font-bold text-[#079BEE]">
                 {{ t.about.gamesCount }}
               </p>
-              <p class="text-2xl text-black font-semibold mt-1">
-                {{ t.about.games }}
-              </p>
+              <p class="text-2xl text-black font-semibold mt-1">{{ t.about.games }}</p>
             </div>
           </div>
         </div>

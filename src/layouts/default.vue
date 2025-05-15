@@ -42,6 +42,8 @@ useHead({
       property: 'og:description',
       content: 'ETECH - Game Studio, sáng tạo và phát triển game chất lượng.',
     },
+    { property: 'og:image', content: 'https://phtsnh26.github.io/4tek-test/logo.png' },
+    { property: 'og:url', content: 'https://phtsnh26.github.io/4tek-test/' },
     { property: 'og:site_name', content: 'ETECH' },
   ],
 })

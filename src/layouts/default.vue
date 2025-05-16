@@ -1,7 +1,6 @@
 <template>
   <Header />
   <main>
-    <Loading v-if="isLoading" />
     <ScrollToTop />
     <slot />
   </main>
@@ -10,13 +9,6 @@
 
 <script setup>
 import logoUrl from '~/assets/images/logo.svg'
-
-const isLoading = ref(true)
-
-onMounted(async () => {
-  await nextTick()
-  isLoading.value = false
-})
 
 useHead({
   title: 'ETECH',
